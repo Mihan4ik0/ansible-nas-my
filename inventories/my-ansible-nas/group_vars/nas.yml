@@ -1,0 +1,30 @@
+---
+##                       ._____.   .__
+##  _____    ____   _____|__\_ |__ |  |   ____             ____ _____    ______
+##  \__  \  /    \ /  ___/  || __ \|  | _/ __ \   ______  /    \\__  \  /  ___/
+##   / __ \|   |  \\___ \|  || \_\ \  |_\  ___/  /_____/ |   |  \/ __ \_\___ \
+##  (____  /___|  /____  >__||___  /____/\___  >         |___|  (____  /____  >
+##       \/     \/     \/        \/          \/               \/     \/     \/
+##     a n s i b l e - n a s      https://github.com/davestephens/ansible-nas
+
+# Add your all.yml config overrides to this file. See group_vars/all.yml for all possible settings.
+
+# Example options
+ansible_nas_hostname: 192.168.0.100
+ansible_nas_timezone: Europe/Moscow
+
+## Enable some applications
+homepage_enabled: true
+code_server_enabled: true
+gitlab_enabled: true
+utorrent_enabled: true
+utorrent_available_externally: true
+minidlna_enabled: true
+jellyfin_enabled: true
+stats_enabled: true
+stats_internet_speed_test_enable: true
+stats_grafana_available_externally: true
+stats_prometheus_available_externally: true
+cloudcmd_enabled: true
+cloudcmd_browse_director: /mnt/storage
+youtubedlmaterial_enabled: true
